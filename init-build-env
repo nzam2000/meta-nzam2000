@@ -4,6 +4,9 @@
 source ./openembedded-core/oe-init-build-env
 
 # add layers
-# TODO
+# oe-init-build-env leaves the shell inside build/, so layer paths
+# must be one directory up
+bitbake-layers add-layer ../meta-nzam2000/meta-nzam2000
+bitbake-layers add-layer ../meta-arm/meta-arm-toolchain ../meta-arm/meta-arm ../meta-ti/meta-ti-bsp ../meta-ti/meta-beagle
 
 
