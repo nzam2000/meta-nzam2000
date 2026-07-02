@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# source the default build script
+source ./openembedded-core/oe-init-build-env
+
+# add layers
+# TODO
+
+
