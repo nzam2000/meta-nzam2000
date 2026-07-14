@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # source the default build script
 source ./openembedded-core/oe-init-build-env
